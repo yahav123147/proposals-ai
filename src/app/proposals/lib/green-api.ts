@@ -56,8 +56,7 @@ export function buildViewedMessage(
   shortCode: string,
   isFirstView: boolean
 ): string {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://your-domain.com";
-  const url = `${baseUrl}/p/${shortCode}`;
+  const url = `https://try.thenextlevel.co.il/p/${shortCode}`;
   if (isFirstView) {
     return `🎉 *${clientName}* פתח/ה את הצעת המחיר שלך!\n\n📄 ${templateName}\n🔗 ${url}\n\nזה הזמן הטוב ביותר לסגור — תתקשר/י עכשיו 📞`;
   }

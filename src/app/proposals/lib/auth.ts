@@ -3,7 +3,7 @@ import { SALES_REPS, getSalesRepById } from "./sales-reps";
 import type { SalesRep } from "./types";
 
 const COOKIE_NAME = "proposals_session";
-const SHARED_PASSWORD = process.env.PROPOSALS_PASSWORD || "changeme123";
+const SHARED_PASSWORD = process.env.PROPOSALS_PASSWORD || "nextlevel2026";
 
 export function checkPassword(password: string): boolean {
   return password === SHARED_PASSWORD;

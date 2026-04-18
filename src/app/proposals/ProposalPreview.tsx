@@ -76,13 +76,13 @@ const S = {
 /* ============ BONUSES DATA ============ */
 const BONUSES = [
   {
-    name: "Hot Seat אישי עם מנטור 2",
+    name: "Hot Seat אישי עם נטליה",
     desc: "סקירה חיה ואישית על התוכן שלך עם פידבק בזמן אמת.",
     value: "2,000",
   },
   {
     name: "קהילת NEXT LEVEL",
-    desc: "קבוצת וואטסאפ סגורה לתמיכה ומענה ישיר ממנטור 2.",
+    desc: "קבוצת וואטסאפ סגורה לתמיכה ומענה ישיר מנטליה.",
     value: "1,997",
   },
   {
@@ -101,7 +101,7 @@ const BONUSES = [
     value: "897",
   },
   {
-    name: "YOUR BRAND NAME",
+    name: "FOLLOWERS FOR LIFE – יהב רובין",
     desc: "צעד אחר צעד: איך לבנות אמון עם הקהילה שלך.",
     value: "297",
   },
@@ -222,7 +222,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
             color: "#A78BFA",
           }}
         >
-          Content AI Program
+          Next Level Content AI
         </h1>
         <p
           style={{
@@ -259,7 +259,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
           }}
         >
           <strong style={{ color: "rgba(255,255,255,0.6)" }}>
-            Your Brand
+            Next Level
           </strong>
           <br />
           מחזור 2026 · 25 מקומות בלבד
@@ -307,7 +307,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
                 fontSize: 14,
               }}
             >
-              Your Brand
+              Next Level
             </p>
           </div>
           <div
@@ -365,7 +365,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
             >
               {data.signOff.split("\n").map((line, i) => (
                 <span key={i}>
-                  {line.startsWith("צוות") || line.startsWith("מנטור 2") ? (
+                  {line.startsWith("צוות") || line.startsWith("נטליה") ? (
                     <strong style={{ color: T.text }}>{line}</strong>
                   ) : (
                     line
@@ -481,17 +481,17 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
               },
               {
                 n: "2",
-                title: "9 מפגשי LIVE קבוצתיים עם מנטור 2",
+                title: "9 מפגשי LIVE קבוצתיים עם נטליה",
                 desc: "יישום מעשי, סקירה על התוכן שלך, הכוונה אישית.",
               },
               {
                 n: "3",
                 title: "קבוצת וואטסאפ ייעודית",
-                desc: "12 שבועות של גישה ישירה למנטור 2. שאלות, הכוונה, שיתוף.",
+                desc: "12 שבועות של גישה ישירה לנטליה. שאלות, הכוונה, שיתוף.",
               },
               {
                 n: "4",
-                title: "תמיכה טכנית אישית",
+                title: "תמיכה טכנית עם אתל",
                 desc: "צ'אט חם ימים א'-ה' (12:30-15:30).",
               },
             ].map((item, i) => (
@@ -580,7 +580,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
           <div style={{ display: "flex", justifyContent: "center", margin: "20px 0 16px" }}>
             <img
               src="/images/content-ai/Natalia-2.webp"
-              alt="מנטור 2"
+              alt="נטליה ריי"
               style={{
                 width: 120,
                 height: 120,
@@ -595,7 +595,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
           <h2
             style={{ ...S.h2, color: T.white, marginBottom: 16 }}
           >
-            מנטור 2
+            נטליה ריי
           </h2>
           <p
             style={{
@@ -606,7 +606,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
               fontSize: 15,
             }}
           >
-            מנטור 2 בנתה מכונות שיווק בסקאלה בינלאומית – ועכשיו היא
+            נטליה בנתה מכונות שיווק בסקאלה בינלאומית – ועכשיו היא
             מלמדת את השיטה.
           </p>
           <div
@@ -621,7 +621,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
             {[
               {
                 num: "$20M",
-                label: "בנתה חטיבת קואצ'ינג\nמאפס לארגון מוביל",
+                label: "בנתה את חטיבת הקואוצ'ינג\nב-Mindvalley מ-0",
               },
               {
                 num: "$1M",
@@ -693,7 +693,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
             >
               כיום מנטורית בכירה ב
               <strong style={{ color: "rgba(255,255,255,0.65)" }}>
-                שם העסק
+                נקסט לבל
               </strong>
               .
             </p>
@@ -722,13 +722,13 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
                 lineHeight: 1.6,
               }}
             >
-              בשנה האחרונה מנטור 2 בנתה{" "}
+              בשנה האחרונה נטליה בנתה{" "}
               <strong style={{ color: T.white }}>
                 צבא של יוצרות תוכן מבוססות AI
               </strong>{" "}
               בעסק של בעלה והזניקה אותו{" "}
               <strong style={{ color: T.purpleLight }}>
-                מאפס לקהילה גדולה
+                מאפס למעל מיליון עוקבים
               </strong>{" "}
               אורגנית.
             </p>
@@ -744,7 +744,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
             >
               <img
                 src="/images/content-ai/natalia-husband-proof.jpg"
-                alt="הצבא של יוצרות התוכן של מנטור 2"
+                alt="הצבא של יוצרות התוכן של נטליה"
                 style={{
                   width: "100%",
                   height: "auto",
@@ -1395,7 +1395,7 @@ export function ProposalPreview({ data }: { data: ProposalData }) {
               marginBottom: 4,
             }}
           >
-            Content AI · Your Brand
+            Content AI · Next Level
           </p>
           <p style={{ margin: 0 }}>© 2026 כל הזכויות שמורות</p>
         </div>

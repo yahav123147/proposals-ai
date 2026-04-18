@@ -8,7 +8,7 @@ import type { SalesRep } from "./types";
  * Israeli prefix (e.g. "0521234567" or "972521234567").
  */
 export const SALES_REPS: SalesRep[] = [
-  { id: "admin", name: "מנהל", role: "admin", whatsapp: "" },
+  { id: "yahav", name: "יהב", role: "admin", whatsapp: "" },
   { id: "rep-1", name: "איש מכירות 1", role: "sales", whatsapp: "" },
   { id: "rep-2", name: "איש מכירות 2", role: "sales", whatsapp: "" },
   { id: "rep-3", name: "איש מכירות 3", role: "sales", whatsapp: "" },
